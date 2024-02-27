@@ -1,0 +1,22 @@
+predefined-image-types:
+  original:
+    height: 200
+    width: 200
+    quality: 50
+    scale-type: CROP
+    fill-color: #2311d2'
+    type: JPG
+  thumbnail:
+    height: 50
+    width: 50
+    quality: 50
+    scale-type: Skew
+    fill-color: '#2311d2'
+    type: PNG
+
+amazon:
+  s3:
+    bucket-name: bsl-image-bucket
+    endpoint: https://bsl-image-bucket.s3-eu-west-1.amazonaws.com/
+    access-key: AKIAWOPLXEKDALPWVDVJ
+    secret-key: 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
