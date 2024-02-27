@@ -18,5 +18,5 @@ amazon:
   s3:
     bucket-name: bsl-image-bucket
     endpoint: https://bsl-image-bucket.s3-eu-west-1.amazonaws.com/
-    access-key: AKIAWOPLXEKDALPWVDVJ
-    secret-key: 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
+    access-key:
+    secret-key:
