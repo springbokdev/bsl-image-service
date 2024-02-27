@@ -47,7 +47,7 @@ public class AmazonClientService {
         BasicAWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
 
         this.amazonS3 = AmazonS3ClientBuilder.standard()
-                .withRegion(Regions.EU_CENTRAL_1)
+                .withRegion(Regions.EU_WEST_1)
                 .withCredentials(new AWSStaticCredentialsProvider(credentials))
                 .build();
         log.info("Done!");

@@ -17,16 +17,5 @@ public class PredefinedImageType {
     private String fillColor;
     private Type type;
 
-    private enum ScaleType {
-        CROP,
-        FILL,
-        SKEW;
-    }
-
-    private enum Type {
-        JPG,
-        PNG,
-        GIF;
-    }
 
 }
